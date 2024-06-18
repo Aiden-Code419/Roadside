@@ -1,1 +1,12 @@
+.grid-container {
+    display: grid;
+    gap: 0px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    background-color: #f0e5e6;
+    border: none;
+}
 
+.grid-container > div {
+    font-size: 24px;
+}
