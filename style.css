@@ -10,3 +10,8 @@
 .grid-container > div {
     font-size: 24px;
 }
+
+.navbar {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
